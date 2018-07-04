@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bytes"
-	"fmt"
-  "log"
-	"net/http"
-	"time"
+    "bytes"
+    "fmt"
+    "log"
+    "net/http"
+    "time"
 )
 
 func formatAll(f string, m map[rune]string) (string, error) {
