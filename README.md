@@ -30,21 +30,21 @@ By default, the time zone is assumed as UTC.
 
 ## Query parameters
 
-| Name | Description | Default value |
-|===|===|===|
-| `f` | Format string | N/A |
-| `o` | Offset time in [Duration](https://golang.org/pkg/time/#Duration) | `0s` |
+Name | Description | Default value
+--- | --- | ---
+`f` | Format string | N/A
+`o` | Offset time in [Duration](https://golang.org/pkg/time/#Duration) | `0s`
 
 ## Format syntax
 
 Similar to `date` UNIX command. [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding) is needed.
 
-| Placeholder | Description |
-|===|===|
-| `%d` | Day of month (`01` .. `31`) |
-| `%H` | Hour (`00` .. `23`) |
-| `%m` | Month (`01` .. `12`) |
-| `%M` | Minute (`00` .. `59`) |
-| `%s` | Seconds since 1970-01-01 00:00:00 UTC |
-| `%S` | Second (`00` .. `60`) |
-| `%Y` | Year (eg: `2018`) |
+Placeholder | Description
+--- | ---
+`%d` | Day of month (`01` .. `31`)
+`%H` | Hour (`00` .. `23`)
+`%m` | Month (`01` .. `12`)
+`%M` | Minute (`00` .. `59`)
+`%s` | Seconds since 1970-01-01 00:00:00 UTC
+`%S` | Second (`00` .. `60`)
+`%Y` | Year (eg: `2018`)
