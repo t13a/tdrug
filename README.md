@@ -1,12 +1,12 @@
-# tdrug
+# tdurl
 
-`tdrug` is **T**ime **D**ependent **R**edirect **U**RL **G**enerator.
+`tdurl` is Time-dependent URL redirect generator.
 
 ## Getting Started
 
 Start server:
 
-    $ docker run --rm -p 8991:8991 t13a/tdrug
+    $ docker run --rm -p 8991:8991 t13a/tdurl
 
 Request URL:
 
