@@ -1,6 +1,6 @@
 # tdurl
 
-`tdurl` is Time-dependent URL redirect generator.
+`tdurl` is a time-dependent URL redirect generator.
 
 ## Getting Started
 
