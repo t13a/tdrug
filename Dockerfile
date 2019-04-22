@@ -1,4 +1,4 @@
-FROM golang:1.10 AS builder
+FROM golang:1.12 AS builder
 
 WORKDIR /go/src/tdurl
 
